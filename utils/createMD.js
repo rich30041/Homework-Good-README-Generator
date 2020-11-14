@@ -7,7 +7,7 @@ ${data.License}
 ## Description 
 ${data.description}
 
-##Table of Contents	
+## Table of Contents	 
 	* [Description](#description)
 	* [Installation](#installation)
 	* [Usage](#usage)
