@@ -4,32 +4,32 @@
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
 ## Description 
-generate
+Generate a formatted README.md file to use for your projects.
 
 ## Table of Contents	 
-	* [Description](#description)
-	* [Installation](#installation)
-	* [Usage](#usage)
-	* [Contributing](#contributing)
-	* [Tests](#tests)
-	* [License](#license)
-	* [Questions](#questions) 
+	*[Description](#description)
+	*[Installation](#installation)
+	*[Usage](#usage)
+	*[Contributing](#contributing)
+	*[Tests](#tests)
+	*[License](#license)
+	*[Questions](#questions) 
 
 ## Installation  	
-non
+No installation instructions just run node index.js
 
 ## Usage			
-Generate a README.md file for your projects
+Used for generating a README.md file for your projects, by answering a few questions.
 
 ## Contributing	
-none 
+Nonwe 
 
 ## Tests			
-none
+None
 
 ## License 		
 ISC 
     
 ## Questions 
-	Reach out to me with any questions at slsls@sls.com
+	Reach out to me with any questions at rrrrrr@server.com
 
