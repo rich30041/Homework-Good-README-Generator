@@ -1,0 +1,24 @@
+{
+  "name": "homework-good-readme-generator",
+  "version": "1.0.0",
+  "description": "readme-generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rich30041/Homework-Good-README-Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rich30041/Homework-Good-README-Generator/issues"
+  },
+  "homepage": "https://github.com/rich30041/Homework-Good-README-Generator#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "fs": "0.0.1-security",
+    "inquirer": "^7.3.3"
+  }
+}
