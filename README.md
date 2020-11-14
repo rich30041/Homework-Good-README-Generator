@@ -1,35 +1,35 @@
 
 # **Homework-Good-README-Generator**
 
-[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description 
 Generate a formatted README.md file to use for your projects.
 
 ## Table of Contents	 
-	*[Description](#description)
-	*[Installation](#installation)
-	*[Usage](#usage)
-	*[Contributing](#contributing)
-	*[Tests](#tests)
-	*[License](#license)
-	*[Questions](#questions) 
+*[Description](#description)
+*[Installation](#installation)
+*[Usage](#usage)
+*[Contributing](#contributing)
+*[Tests](#tests)
+*[License](#license)
+*[Questions](#questions) 
 
 ## Installation  	
-No installation instructions just run node index.js
+No installation instructions just run node index.js 
 
 ## Usage			
 Used for generating a README.md file for your projects, by answering a few questions.
 
 ## Contributing	
-Nonwe 
+None 
 
 ## Tests			
-None
+Answer prompts to test usability and verify README.md is in correct format.
 
 ## License 		
-ISC 
+MIT 
     
 ## Questions 
-	Reach out to me with any questions at rrrrrr@server.com
+	Reach out to me with any questions at slssssl@someserver.com
 
