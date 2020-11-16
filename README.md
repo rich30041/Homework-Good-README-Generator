@@ -1,7 +1,7 @@
 
 # **Homework-Good-README-Generator**
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description 
 Generate a formatted README.md file to use for your projects.
@@ -33,9 +33,9 @@ Answer prompts to test usability and verify README.md is in correct format.
 
 
 ## License 		
-GNU GPL v3.0 
+MIT 
     
 
 ## Questions 
-	Reach out to me with any questions at slssl@someserver.com
+	Reach out to me with any questions at test@someweb.com
 

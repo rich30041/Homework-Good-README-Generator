@@ -1,0 +1,77 @@
+GIVEN a command-line application that accepts user input
+WHEN I am prompted for information about my application repository
+THEN a quality, professional README.md is generated with the title of your project and sections entitled 
+  Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+WHEN I enter my project title
+THEN this is displayed as the title of the README
+WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
+THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
+WHEN I choose a license for my application from a list of options
+THEN a badge for that license is added hear the top of the README and a notice is added to the section of the README 
+  entitled License that explains which license the application is covered under
+WHEN I enter my GitHub username
+THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
+WHEN I enter my email address
+THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
+WHEN I click on the links in the Table of Contents
+THEN I am taken to the corresponding section of the README
+
+The generated README includes the following sections:
+Title
+Description			
+Table of Contents	
+Installation		
+Usage				
+License				
+Contributing        
+Tests				
+Questions			
+
+The generated README includes 1 badge that's specific to the repository.
+
+Going to need inquirer, fs, and axios
+Create the list of questions 
+The generated README includes the following sections:
+Title				prompt name: "title" message: "What is your project title?"
+ #this is the title of the README 
+Description			prompt name: "description" message: "Please provide a description of your project."
+Installation		prompt name: "install" message: "Provide any installation instructions."
+Usage				prompt name: "usage" message: "Provide the project usage"
+Contributing        prompt name: "contib" message: "Provide any contributing parties"
+Tests				prompt name: "tests" message: "Provide any project tests"
+License				checkboxes from list then pull badges for lic check 
+ #provide list of license allow to choose 1
+ #badge for that license is added hear the top of the README
+ #notice is added to the section of the README entitled License that explains which license the application is covered under
+#					prompt name: "ghubName" message: "Enter your GitHub username"
+#					prompt name: "email" message: "Enter your email address" 
+
+###have all the input these will be the sections
+Title 		   
+	${data.title}
+## ${getLicense(data.license)}
+## Description   	
+${data.description}
+##Table of Contents	
+	*[Description] (#description)
+	*[Installation](#installation)
+	*[Usage] (#usage)
+	*[Contributing] (#contributing)
+	*[Tests] (#tests)
+	*[License] (#license)
+	*[Questions] (#questions) 
+
+## Installation  	
+${data.install}
+## Usage			
+${data.usage}
+## Contributing	
+${data.contrib} 
+## Tests			
+${data.tests}
+## License 		
+	add notice that explains which license the application is covered under 
+## Questions 
+	"Reach out to me with any questions at " + email
+
+####Write it to a file README.md 
