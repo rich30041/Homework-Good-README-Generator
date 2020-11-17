@@ -8,13 +8,13 @@ Generate a formatted README.md file to use for your projects.
 
 ## Table of Contents	 
 
-*[Description](#description)  
-*[Installation](#installation)  
-*[Usage](#usage)  
-*[Contributing](#contributing)  
-*[Tests](#tests)  
-*[License](#license)  
-*[Questions](#questions)  
+* [Description](#description)  
+* [Installation](#installation)  
+* [Usage](#usage)  
+* [Contributing](#contributing)  
+* [Tests](#tests)  
+* [License](#license)  
+* [Questions](#questions)  
 
 ## Installation  	
 No installation instructions just run node index.js 
