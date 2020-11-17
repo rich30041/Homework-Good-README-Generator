@@ -15,11 +15,11 @@ Generate a formatted README.md file to use for your projects.
 * [License](#license)
 * [Questions](#questions)
 
-## Installation  	
+## Installation 
 No installation instructions just run node index.js 
 
 
-## Usage			
+## Usage 	
 Used for generating a README.md file for your projects, by answering a few questions.
 
 
@@ -27,11 +27,11 @@ Used for generating a README.md file for your projects, by answering a few quest
 None 
 
 
-## Tests			
+## Tests 	
 Answer prompts to test usability and verify README.md is in correct format.
 
 
-## License 		
+## License 
 MIT 
     
 
